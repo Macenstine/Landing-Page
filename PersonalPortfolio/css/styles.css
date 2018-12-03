@@ -1,0 +1,373 @@
+/* David Schott 5-4-2017 */
+/****************************************/
+/* Mobile viewport style specifications */
+/****************************************/
+
+/* Style for navigation element specifies display properties for navigation buttons */
+nav ul{
+    list-style-type: none;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 14pt;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Style specifies display properties for list items in the nav element */
+nav li{ 
+    text-align: center;
+    display: block;
+    padding: 0.2em;
+    background-color: #32b2cc;
+    border-radius: 1em;
+    margin: 0.2em;
+    
+}
+
+/*Style specifies text color for unvisited hyperlinks/buttons in the nav element*/ 
+nav a:link{
+        color: #000000;
+    }
+
+/*Style specifies text color for visited hyperlinks/buttons in the nav element*/   
+nav a:visited{
+        color: #000000;
+    }
+
+/*style specifies text decoration for anchors in list items*/
+li a{
+    text-decoration: none;
+}
+
+/* Style for container centers the page and sets the element width */
+#container{
+    width: 100%;
+}
+
+/*Style hides content from the desktop id*/
+.desktop{
+    display: none;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center aligns content */
+header{
+    text-align: center;
+}
+
+/*style specifies font properties for paragraphs in the main element*/
+main p{
+    font-family: 'Electrolize', sans-serif;
+    font-size: 15pt;
+}
+
+/*style specifies font and text alignment properties for h1, h2, and h3 elements*/
+h1, h2, h3{
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+}
+
+/*style specifies the font for the footer element*/
+footer{
+    font-family: 'Electrolize', sans-serif;
+}
+
+main img{
+    max-width: 60%;
+}
+    
+    main table, th, td{
+        font-family: 'Electrolize', sans-serif;
+        border: 2px solid #32b2cc;
+        text-align: center;
+        border-collapse: collapse;
+        background: #D2D2D2;
+        width: auto;
+    }
+    
+    table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    article p{
+        font-size: 15pt;
+    }
+
+    article img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    form ul li{
+        text-align: left;
+        padding-top: 1em;
+        list-style-type: none;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 15pt;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    #construction img{
+        display: block;
+        margin: 0 auto;
+    }
+
+/****************************************/
+/* Tablet viewport style specifications */
+/****************************************/
+    
+/* Media query for the tablet viewport */
+@media only screen and (min-width: 481px){
+    
+    /* Style specifies inline display placement for objects in the nav element */
+    nav li{
+    display: inline;
+    padding: 0.2em;
+    border: 2px solid #32b2cc;
+    text-decoration: none;
+    }
+    
+    nav ul{
+        padding: 0;
+        text-align: center;
+    }
+    
+    /*Style specifies text color for unvisited hyperlinks/buttons in the nav element*/ 
+    nav a:link{
+        color: #000000;
+    }
+    
+    /*Style specifies text color for visited hyperlinks/buttons in the nav element*/  
+    nav a:visited{
+        color: #000000;
+    }
+    
+    /* Style specifies width for image items in the main element */
+    main img{
+        max-width: 35%;
+    }
+    
+    /*Style specifies font, border, text alignment, width, border, and background properties for table, table header, and table data items in the main element*/
+    main table, th, td{
+        font-family: 'Electrolize', sans-serif;
+        border: 2px solid #32b2cc;
+        text-align: center;
+        width: 60%;
+        border-collapse: collapse;
+        background: #D2D2D2;
+    }
+    
+    /*style specifies text alignment and font properties for paragraph items in the main element*/
+    main p{
+        text-align: center;
+        font-size: 15pt;
+    }
+    
+    /*style specifies margin properties for the table element*/
+    table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /*style specifies font size for paragraohs in the article element*/
+    article p{
+        font-size: 15pt;
+    }
+    
+    /*style specifies display and margin properties for images in the article element*/
+    article img{
+        display: block;
+        margin: 0 auto;
+    }
+    /*style specifies text alignment, apdding, list style type and font properties for ul li items in the form element*/
+    form ul li{
+        text-align: left;
+        padding-top: 1em;
+        list-style-type: none;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 15pt;
+    }
+    
+    /*style specifies text alignment in the footer element*/
+    footer{
+        text-align: center;
+    }
+    
+    /*style specifies text alignment and margin properties for images in the construction id*/
+    #construction img{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*****************************************/
+/* Desktop viewport style specifications */
+/*****************************************/
+    
+/* Media query for the desktop viewport */
+@media only screen and (min-width: 830px){
+    
+    /* Style specifies inline display property for nav buttons */
+    nav li{
+        display: inline;
+        border-radius: 0.2em;
+        background: #FFFFFF;
+        font-size: 15pt;
+        font-weight: bold;
+        
+    }
+    
+    /*Style specifies center text alignment for ul items in the nav element */
+    nav ul{
+        text-align: center;
+    }
+    
+    /* Style specifies backround color for the nav element */
+    nav{
+        background-color: #32b2cc;
+        margin-left: 3em;
+    }
+    
+    /*Style specifies text color for unvisited hyperlinks/buttons in the nav element*/ 
+    nav a:link{
+        color: #32B2CC;
+    }
+    
+    /*Style specifies text color for visited hyperlinks/buttons in the nav element*/  
+    nav a:visited{
+        color: #FF694B;
+    }
+    
+    /*Style specifies text color for mouse-hover-on hyperlinks/buttons in the nav element*/
+    nav li a:hover{
+        font-style: italic;
+    }
+    
+    /*Style specifies text color for unvisited hyperlinks/buttons in the main element*/ 
+    main p a:link{
+        color: #32B2CC;
+    }
+    
+    /*Style specifies text color for visited hyperlinks/buttons in the main element*/  
+    main p a:visited{
+        color: #FF694B;
+    }
+    
+    /*Style specifies text color for unvisited hyperlinks/buttons in the footer element*/ 
+    footer p a:link{
+        color: #32B2CC;
+    }
+    
+    /*Style specifies text color for visited hyperlinks/buttons in the footer element*/  
+    footer p a:visited{
+        color: #FF694B;
+    }
+    
+    /* Style specifies float and width properties for images within the header element */
+    header img{
+        float: left;
+        width: auto;
+    }
+    
+    /* Style specifies center alignment for text and other objects in the container div */
+    #container p{
+        /* Put Style here */
+    }
+    
+    /* Style specifies the */
+    footer{
+        text-align: center;
+        font-size: 8pt;
+    }
+    
+    /* Style specifies left text alignment for pargraph items in the main element */
+    main p{
+        text-align: center;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+    /* Style specifies the maximum width for images in the main element */
+    main img{
+        max-width: 25%;
+    }
+    
+    /* Style specifies width, margin, font, and border properties for the main element */
+    main{
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0.3em solid #32b2cc;
+        border-radius: 5px;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 15pt;
+        text-align: center;
+    }
+    
+    /*Style specifies font, border, background, and width properties for tables, table headers, and table data items within the main element*/
+    main table, th, td{
+        font-family: 'Electrolize', sans-serif;
+        border: 2px solid #32b2cc;
+        text-align: center;
+        width: 60%;
+        border-collapse: collapse;
+        background: #D2D2D2;
+    }
+    
+    /*Style specifies font size for paragraphs in the article element*/
+    article p{
+        font-size: 15pt;
+    }
+    
+    /* Style specifies margin size for the table element */
+    table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /*Style specifies margin and border properties*/
+    caption{
+        margin-top: 0.5em;
+        margin-bottom: 0.1em;
+        border: 2px solid #27899C;
+    }
+    
+    /*Style soecifies text alignment and margin properties for imgs in the construction c*/
+    #construction img{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /*Style specifies text alignment for paragraphs in the construction element*/
+    #construction p{
+        text-align: center;
+    }
+    
+    /*Style specifies text alignment for items in the social class*/
+    #social{
+        text-align: center;
+    }
+    
+    /*style hides content from the mobile class*/
+    .mobile{
+        display: none;
+    }
+    
+    /*Style displays content from the desktop id styled as inline-block*/
+    .desktop{
+        display: inline-block;
+    }
+    
+    /*Style specifies text alignment, padding, and list style type properties*/
+    form ul li{
+        text-align: left;
+        padding-top: 1em;
+        list-style-type: none;
+    }
+    
+    
+}
